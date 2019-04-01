@@ -10,9 +10,9 @@ namespace StacksAndQueues
         {
             Console.WriteLine("Hello World!");
 
-            
 
-            //StackClass<int> input = 10;
+            
+            RunPushMethod();
             
             
         }
@@ -28,11 +28,8 @@ namespace StacksAndQueues
 
             stack.Push(input1);
 
-
-            foreach (var i in stack)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine (stack.Peek(input1));
+          
 
         }
         

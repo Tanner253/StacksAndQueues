@@ -7,28 +7,20 @@ using System.Transactions;
 
 namespace StacksAndQueues.classes
 {
-    public class Node
+    public class Node<T>
     {
 
-        Node node = new Node();
-        public int Value { get; set; }
+      
+        public T Value { get; set; }
         
-        public Node Current { get; set; }
-        public Node Head { get; set; }
+        public Node<T> Current { get; set; }
+        public Node<T> Head { get; set; }
 
         public string Name { get; set; }
         public string LastName { get; set; }
-        public Node Next { get; set; }
+        public Node<T> Next { get; set; }
 
-        public enum FavoriteNumbers
-        {
-          one,
-          two,
-          three,
-          four,
-          five
-
-        }
+       
       
     }
 }
