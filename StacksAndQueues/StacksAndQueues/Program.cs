@@ -10,13 +10,29 @@ namespace StacksAndQueues
         {
             Console.WriteLine("Hello World!");
 
-            StackClass<int> stack = new StackClass<int>();
-            stack.Initiation();
+            
+
+            //StackClass<int> input = 10;
+            
             
         }
-        public void InitTheStack()
+
+        public static void RunPushMethod()
         {
-            StackClass<int> myStackk = new StackClass<int>();
+            StackClass<int> stack = new StackClass<int>();
+            
+            Console.WriteLine("Choose a number to push to stack");
+            int input1 = Convert.ToInt32(Console.ReadLine());
+
+
+
+            stack.Push(input1);
+
+
+            foreach (var i in stack)
+            {
+                Console.WriteLine(i);
+            }
 
         }
         
