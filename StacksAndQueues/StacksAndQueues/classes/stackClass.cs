@@ -36,9 +36,9 @@ namespace StacksAndQueues.classes
             Top = node;
         }
 
-        public T Peek(T position)
+        public Node<T> Peek()
         {
-            return Top.Value;
+            return Top;
             
         }
 
