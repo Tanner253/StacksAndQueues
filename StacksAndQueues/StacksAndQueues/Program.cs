@@ -28,7 +28,7 @@ namespace StacksAndQueues
 
             stack.Push(input1);
 
-            Console.WriteLine (stack.Peek(input1));
+            Console.WriteLine (stack.Peek());
           
 
         }

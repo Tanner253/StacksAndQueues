@@ -36,7 +36,6 @@ namespace StacksAndQueues.classes
             temp.Next = null;
             return temp;
 
-
         }
         public T Peek()
         {
